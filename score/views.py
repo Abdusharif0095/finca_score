@@ -50,7 +50,7 @@ class RegisterView(APIView):
         return super().initialize_request(request, *args, **kwargs)
 
     def post(self, request):
-        print(request.data)
+        # print(request.data)
         email = request.data['email']
         try:
             validate_email(email)

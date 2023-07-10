@@ -14,7 +14,7 @@ class ServerTestCase(TestCase):
         test_set = [
             {
                 "data": {
-                        "name": "",
+                        "username": "",
                         "email": "user1@mail.ru",
                         "password": "Abcd123!"
                 },
@@ -23,7 +23,7 @@ class ServerTestCase(TestCase):
             },
             {
                 "data": {
-                    "name": "user1",
+                    "username": "user1",
                     "email": "",
                     "password": "Abcd123!"
                 },
@@ -32,7 +32,7 @@ class ServerTestCase(TestCase):
             },
             {
                 "data": {
-                    "name": "user1",
+                    "username": "user1",
                     "email": "user1mail.ru",
                     "password": "Abcd123!"
                 },
@@ -41,7 +41,7 @@ class ServerTestCase(TestCase):
             },
             {
                 "data": {
-                    "name": "user1",
+                    "username": "user1",
                     "email": "user1@mail.ru",
                     "password": ""
                 },
@@ -50,7 +50,7 @@ class ServerTestCase(TestCase):
             },
             {
                 "data": {
-                    "name": "user1",
+                    "username": "user1",
                     "email": "user1@mail.ru",
                     "password": "Abcd!"
                 },
@@ -59,7 +59,7 @@ class ServerTestCase(TestCase):
             },
             {
                 "data": {
-                    "name": "user1",
+                    "username": "user1",
                     "email": "user1@mail.ru",
                     "password": "Abcd1234"
                 },
@@ -68,7 +68,7 @@ class ServerTestCase(TestCase):
             },
             {
                 "data": {
-                    "name": "user1",
+                    "username": "user1",
                     "email": "user1@mail.ru",
                     "password": "Abcd!wew"
                 },
@@ -77,7 +77,7 @@ class ServerTestCase(TestCase):
             },
             {
                 "data": {
-                    "name": "user1",
+                    "username": "user1",
                     "email": "user1@mail.ru",
                     "password": "12323!11"
                 },
@@ -86,7 +86,7 @@ class ServerTestCase(TestCase):
             },
             {
                 "data": {
-                    "name": "user1",
+                    "username": "user1",
                     "email": "user1@mail.ru",
                     "password": "Abcd123!"
                 },
@@ -102,6 +102,7 @@ class ServerTestCase(TestCase):
             )
             self.assertEqual(response.status_code, test["status_code"])
 
+
     def test_post_login(self):
         """
         Check post method for user logging in
@@ -110,21 +111,21 @@ class ServerTestCase(TestCase):
         test_set = [
             {
                 "data": {
-                    "email": "user1@mai.ru",
+                    "username": "user100",
                     "password": "Abcd123!"
                 },
                 "status_code": 403
             },
             {
                 "data": {
-                    "email": "user1@mail.ru",
+                    "username": "user10",
                     "password": "Abcd124!"
                 },
                 "status_code": 403
             },
             {
                 "data": {
-                    "email": "user1@mail.ru",
+                    "username": "user1",
                     "password": "Abcd123!"
                 },
                 "status_code": 200
@@ -134,7 +135,7 @@ class ServerTestCase(TestCase):
         self.client.post(
             reverse('register'),
             data=json.dumps({
-                "name": "user1",
+                "username": "user1",
                 "email": "user1@mail.ru",
                 "password": "Abcd123!"
             }),
@@ -158,7 +159,7 @@ class ServerTestCase(TestCase):
         self.client.post(
             reverse('register'),
             data=json.dumps({
-                "name": "user1",
+                "username": "user1",
                 "email": "user1@mail.ru",
                 "password": "Abcd123!"
             }),
@@ -169,7 +170,7 @@ class ServerTestCase(TestCase):
         self.client.post(
             reverse('login'),
             data=json.dumps({
-                "email": "user1@mail.ru",
+                "username": "user1",
                 "password": "Abcd123!"
             }),
             content_type="application/json"
@@ -186,7 +187,7 @@ class ServerTestCase(TestCase):
         self.client.post(
             reverse('register'),
             data=json.dumps({
-                "name": "user1",
+                "username": "user1",
                 "email": "user1@mail.ru",
                 "password": "Abcd123!"
             }),
@@ -197,7 +198,7 @@ class ServerTestCase(TestCase):
         self.client.post(
             reverse('login'),
             data=json.dumps({
-                "email": "user1@mail.ru",
+                "username": "user1",
                 "password": "Abcd123!"
             }),
             content_type="application/json"
