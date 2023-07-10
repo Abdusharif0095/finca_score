@@ -8,12 +8,11 @@ from django.core.validators import validate_email
 from django.core.exceptions import ValidationError
 import jwt, datetime
 from django.http import JsonResponse
-from django.contrib.auth.password_validation import (validate_password,
-                                                     UserAttributeSimilarityValidator,
-                                                     CommonPasswordValidator,
-                                                     NumericPasswordValidator,
-                                                     MinimumLengthValidator
-                                                     )
+from django.contrib.auth.password_validation import validate_password
+from .decorators import *
+from django.contrib.auth import authenticate, login
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 
 
 # Create your views here.
@@ -43,8 +42,15 @@ def pass_has_specific_symbol(password):
     return False
 
 
+# @csrf_exempt
+@method_decorator(csrf_exempt, name="dispatch")
 class RegisterView(APIView):
+    def initialize_request(self, request, *args, **kwargs):
+        setattr(request, 'csrf_processing_done', True)
+        return super().initialize_request(request, *args, **kwargs)
+
     def post(self, request):
+        print(request.data)
         email = request.data['email']
         try:
             validate_email(email)
@@ -76,13 +82,18 @@ class RegisterView(APIView):
         return Response(serializer.data)
 
 
+# @method_decorator(csrf_exempt, name="dispatch")
 class LoginView(APIView):
+    def initialize_request(self, request, *args, **kwargs):
+        setattr(request, 'csrf_processing_done', True)
+        return super().initialize_request(request, *args, **kwargs)
+
     def post(self, request):
         # print(request.data)
-        email = request.data['email']
+        username = request.data['username']
         password = request.data['password']
 
-        user = User.objects.filter(email=email).first()
+        user = authenticate(username=username, password=password)
 
         if user is None:
             raise AuthenticationFailed('Пользователь не найден!')
@@ -104,11 +115,16 @@ class LoginView(APIView):
             "user_id": user.id,
             "jwt": token
         }
+        login(request, user)
 
         return response
 
 
 class UserView(APIView):
+    def initialize_request(self, request, *args, **kwargs):
+        setattr(request, 'csrf_processing_done', True)
+        return super().initialize_request(request, *args, **kwargs)
+
     def get(self, request):
         token = request.COOKIES.get('jwt')
 
@@ -127,6 +143,10 @@ class UserView(APIView):
 
 
 class LogoutView(APIView):
+    def initialize_request(self, request, *args, **kwargs):
+        setattr(request, 'csrf_processing_done', True)
+        return super().initialize_request(request, *args, **kwargs)
+
     def post(self, request):
         response = Response()
         response.delete_cookie('jwt')
@@ -134,3 +154,13 @@ class LogoutView(APIView):
             "message": "Success!"
         }
         return response
+
+
+class GetClient(APIView):
+    def initialize_request(self, request, *args, **kwargs):
+        setattr(request, 'csrf_processing_done', True)
+        return super().initialize_request(request, *args, **kwargs)
+
+    @allowed_users(allowed_roles=['manager'])
+    def get(self, request):
+        return HttpResponse("<h1>Success<h1>")

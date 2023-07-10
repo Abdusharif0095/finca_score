@@ -7,7 +7,7 @@ from django.core.exceptions import ValidationError
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id', 'name', 'email', 'password']
+        fields = ['id', 'username', 'email', 'password']
         extra_kwargs = {
             'password': {'write_only': True}
         }
