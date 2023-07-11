@@ -1,3 +1,5 @@
+import os
+
 from django.http import HttpResponse, HttpResponseBadRequest
 from rest_framework.views import APIView
 from .serializers import UserSerializer
@@ -107,7 +109,7 @@ class LoginView(APIView):
             "iat": datetime.datetime.utcnow()
         }
 
-        token = jwt.encode(payload, 'secret', algorithm='HS256')
+        token = jwt.encode(payload, os.getenv('SECRET_KEY'), algorithm='HS256')
         response = Response()
         response.set_cookie(key='jwt', value=token, httponly=True)
         response.data = {
@@ -132,7 +134,7 @@ class UserView(APIView):
             raise AuthenticationFailed('Не авторизован!')
 
         try:
-            payload = jwt.decode(token, 'secret', algorithms=['HS256'])
+            payload = jwt.decode(token, os.getenv('SECRET_KEY'), algorithms=['HS256'])
         except jwt.ExpiredSignatureError:
             raise AuthenticationFailed('Не авторизован!')
 
