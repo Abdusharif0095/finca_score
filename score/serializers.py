@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import User
+from .models import User, ScoreModel
 from django.http import HttpResponseBadRequest
 from django.core.exceptions import ValidationError
 
@@ -19,3 +19,9 @@ class UserSerializer(serializers.ModelSerializer):
             instance.set_password(password)
         instance.save()
         return instance
+
+
+class ScoreModelSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ScoreModel
+        fields = '__all__'

@@ -1,0 +1,360 @@
+2023-07-26 09:13:26,262:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:13:26,262:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:13:26,262:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:13:26,262:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:13:27,412:INFO:Initializing load_model()
+2023-07-26 09:13:27,413:INFO:load_model(model_name=finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:13:27,415:INFO:Initializing load_model()
+2023-07-26 09:13:27,415:INFO:load_model(model_name=finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:14:51,343:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:14:51,343:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:14:51,343:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:14:51,343:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:14:51,860:INFO:Initializing load_model()
+2023-07-26 09:14:51,860:INFO:load_model(model_name=finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:14:51,862:INFO:Initializing load_model()
+2023-07-26 09:14:51,863:INFO:load_model(model_name=finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:16:19,966:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:16:19,966:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:16:19,966:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:16:19,966:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:16:20,463:INFO:Initializing load_model()
+2023-07-26 09:16:20,463:INFO:load_model(model_name=/home/abdusharif/практика/test/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:16:20,465:INFO:Initializing load_model()
+2023-07-26 09:16:20,465:INFO:load_model(model_name=/home/abdusharif/практика/test/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:18:21,130:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:18:21,130:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:18:21,130:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:18:21,130:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:18:21,649:INFO:Initializing load_model()
+2023-07-26 09:18:21,649:INFO:load_model(model_name=/home/abdusharif/практика/test/score/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:19:48,115:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:19:48,115:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:19:48,115:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:19:48,115:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:19:48,761:INFO:Initializing load_model()
+2023-07-26 09:19:48,761:INFO:load_model(model_name=/home/abdusharif/практика/test/score/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:21:17,515:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:21:17,515:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:21:17,515:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:21:17,516:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:21:18,039:INFO:Initializing load_model()
+2023-07-26 09:21:18,039:INFO:load_model(model_name=/home/abdusharif/практика/test/score/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:21:30,916:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:21:30,917:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:21:30,917:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:21:30,917:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:21:31,458:INFO:Initializing load_model()
+2023-07-26 09:21:31,459:INFO:load_model(model_name=/home/abdusharif/практика/test/score/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:21:34,363:INFO:Initializing predict_model()
+2023-07-26 09:21:34,363:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7ff77d99e7d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_income',
+                                             'interest_rate_monthly', 'gender',
+                                             'age', 'loan_amount',
+                                             'loan_duration', 'prior_loans',
+                                             'inflation_rate', 'co_borrower'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transfor...
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transformer=OneHotEncoder(cols=['family_status',
+                                                                    'branch'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=True, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7ff77ddbe170>)
+2023-07-26 09:21:34,363:INFO:Checking exceptions
+2023-07-26 09:21:34,363:INFO:Preloading libraries
+2023-07-26 09:21:34,367:INFO:Set up data.
+2023-07-26 09:21:34,383:INFO:Set up index.
+2023-07-26 09:22:21,244:INFO:Initializing predict_model()
+2023-07-26 09:22:21,244:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7ff77d91cfd0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_income',
+                                             'interest_rate_monthly', 'gender',
+                                             'age', 'loan_amount',
+                                             'loan_duration', 'prior_loans',
+                                             'inflation_rate', 'co_borrower'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transfor...
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transformer=OneHotEncoder(cols=['family_status',
+                                                                    'branch'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=True, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7ff77ddbf6d0>)
+2023-07-26 09:22:21,244:INFO:Checking exceptions
+2023-07-26 09:22:21,244:INFO:Preloading libraries
+2023-07-26 09:22:21,244:INFO:Set up data.
+2023-07-26 09:22:21,249:INFO:Set up index.
+2023-07-26 09:22:38,015:INFO:Initializing predict_model()
+2023-07-26 09:22:38,015:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7ff77d91ca00>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_income',
+                                             'interest_rate_monthly', 'gender',
+                                             'age', 'loan_amount',
+                                             'loan_duration', 'prior_loans',
+                                             'inflation_rate', 'co_borrower'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transfor...
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transformer=OneHotEncoder(cols=['family_status',
+                                                                    'branch'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=True, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7ff77ddbe200>)
+2023-07-26 09:22:38,015:INFO:Checking exceptions
+2023-07-26 09:22:38,015:INFO:Preloading libraries
+2023-07-26 09:22:38,015:INFO:Set up data.
+2023-07-26 09:22:38,021:INFO:Set up index.
+2023-07-26 09:22:52,840:INFO:Initializing predict_model()
+2023-07-26 09:22:52,840:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7ff77d91f4f0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_income',
+                                             'interest_rate_monthly', 'gender',
+                                             'age', 'loan_amount',
+                                             'loan_duration', 'prior_loans',
+                                             'inflation_rate', 'co_borrower'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transfor...
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transformer=OneHotEncoder(cols=['family_status',
+                                                                    'branch'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=True, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7ff77ddbe200>)
+2023-07-26 09:22:52,840:INFO:Checking exceptions
+2023-07-26 09:22:52,840:INFO:Preloading libraries
+2023-07-26 09:22:52,840:INFO:Set up data.
+2023-07-26 09:22:52,846:INFO:Set up index.
+2023-07-26 09:23:11,140:INFO:Initializing predict_model()
+2023-07-26 09:23:11,140:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7ff77d91cd30>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_income',
+                                             'interest_rate_monthly', 'gender',
+                                             'age', 'loan_amount',
+                                             'loan_duration', 'prior_loans',
+                                             'inflation_rate', 'co_borrower'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transfor...
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transformer=OneHotEncoder(cols=['family_status',
+                                                                    'branch'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=True, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7ff77ddbe0e0>)
+2023-07-26 09:23:11,141:INFO:Checking exceptions
+2023-07-26 09:23:11,141:INFO:Preloading libraries
+2023-07-26 09:23:11,141:INFO:Set up data.
+2023-07-26 09:23:11,151:INFO:Set up index.
+2023-07-26 09:26:00,192:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:26:00,192:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:26:00,192:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:26:00,192:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:26:00,726:INFO:Initializing load_model()
+2023-07-26 09:26:00,726:INFO:load_model(model_name=/home/abdusharif/практика/test/score/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:27:39,423:INFO:Initializing predict_model()
+2023-07-26 09:27:39,424:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f69b0f8de10>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_income',
+                                             'interest_rate_monthly', 'gender',
+                                             'age', 'loan_amount',
+                                             'loan_duration', 'prior_loans',
+                                             'inflation_rate', 'co_borrower'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transfor...
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transformer=OneHotEncoder(cols=['family_status',
+                                                                    'branch'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=True, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f69b13aa200>)
+2023-07-26 09:27:39,424:INFO:Checking exceptions
+2023-07-26 09:27:39,424:INFO:Preloading libraries
+2023-07-26 09:27:39,424:INFO:Set up data.
+2023-07-26 09:27:39,430:INFO:Set up index.
+2023-07-26 09:29:32,609:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:29:32,609:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:29:32,609:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:29:32,609:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:29:33,301:INFO:Initializing load_model()
+2023-07-26 09:29:33,301:INFO:load_model(model_name=/home/abdusharif/практика/test/score/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:29:43,308:INFO:Initializing predict_model()
+2023-07-26 09:29:43,308:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f626b34b9a0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_income',
+                                             'interest_rate_monthly', 'gender',
+                                             'age', 'loan_amount',
+                                             'loan_duration', 'prior_loans',
+                                             'inflation_rate', 'co_borrower'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transfor...
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transformer=OneHotEncoder(cols=['family_status',
+                                                                    'branch'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=True, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f626b56e050>)
+2023-07-26 09:29:43,309:INFO:Checking exceptions
+2023-07-26 09:29:43,309:INFO:Preloading libraries
+2023-07-26 09:29:43,309:INFO:Set up data.
+2023-07-26 09:29:43,317:INFO:Set up index.
+2023-07-26 09:30:29,756:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:30:29,756:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:30:29,756:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:30:29,756:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:30:30,311:INFO:Initializing load_model()
+2023-07-26 09:30:30,312:INFO:load_model(model_name=/home/abdusharif/практика/test/score/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:30:33,364:INFO:Initializing predict_model()
+2023-07-26 09:30:33,364:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fecd7cadc00>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_income',
+                                             'interest_rate_monthly', 'gender',
+                                             'age', 'loan_amount',
+                                             'loan_duration', 'prior_loans',
+                                             'inflation_rate', 'co_borrower'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transfor...
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transformer=OneHotEncoder(cols=['family_status',
+                                                                    'branch'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=True, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7fecdc146290>)
+2023-07-26 09:30:33,364:INFO:Checking exceptions
+2023-07-26 09:30:33,364:INFO:Preloading libraries
+2023-07-26 09:30:33,364:INFO:Set up data.
+2023-07-26 09:30:33,370:INFO:Set up index.
+2023-07-26 09:35:04,904:INFO:Initializing predict_model()
+2023-07-26 09:35:04,904:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fecd7d01ed0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['total_income',
+                                             'interest_rate_monthly', 'gender',
+                                             'age', 'loan_amount',
+                                             'loan_duration', 'prior_loans',
+                                             'inflation_rate', 'co_borrower'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transfor...
+                 TransformerWrapper(include=['family_status', 'branch'],
+                                    transformer=OneHotEncoder(cols=['family_status',
+                                                                    'branch'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('polynomial_features',
+                 TransformerWrapper(transformer=PolynomialFeatures(include_bias=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(max_iter=1000, random_state=123))]), probability_threshold=None, encoded_labels=True, raw_score=True, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7fecdc146200>)
+2023-07-26 09:35:04,904:INFO:Checking exceptions
+2023-07-26 09:35:04,904:INFO:Preloading libraries
+2023-07-26 09:35:04,904:INFO:Set up data.
+2023-07-26 09:35:04,911:INFO:Set up index.
+2023-07-26 09:36:36,522:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:36:36,523:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:36:36,523:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:36:36,523:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:36:37,090:INFO:Initializing load_model()
+2023-07-26 09:36:37,090:INFO:load_model(model_name=/home/abdusharif/практика/test/score/finca_score, platform=None, authentication=None, verbose=True)
+2023-07-26 09:37:39,896:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:37:39,897:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:37:39,897:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:37:39,897:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-07-26 09:37:40,660:INFO:Initializing load_model()
+2023-07-26 09:37:40,661:INFO:load_model(model_name=/home/abdusharif/практика/test/score/finca_score, platform=None, authentication=None, verbose=True)
