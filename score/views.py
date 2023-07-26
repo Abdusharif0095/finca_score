@@ -13,15 +13,13 @@ from django.http import JsonResponse
 from django.contrib.auth.password_validation import validate_password
 from .decorators import *
 from django.contrib.auth import authenticate, login
-from django.views.decorators.csrf import csrf_exempt
-from django.utils.decorators import method_decorator
+# from django.views.decorators.csrf import csrf_exempt
+# from django.utils.decorators import method_decorator
+from drf_yasg.utils import swagger_auto_schema
+from drf_yasg import openapi
 
 
 # Create your views here.
-def homeView(request):
-    return HttpResponse('<h1>Welcome, to Finca Score</h1>')
-
-
 def pass_has_number(password):
     for s in password:
         if s.isdigit():
@@ -44,47 +42,19 @@ def pass_has_specific_symbol(password):
     return False
 
 
-# @csrf_exempt
-@method_decorator(csrf_exempt, name="dispatch")
-class RegisterView(APIView):
+class HomeView(APIView):
     def initialize_request(self, request, *args, **kwargs):
         setattr(request, 'csrf_processing_done', True)
         return super().initialize_request(request, *args, **kwargs)
 
-    def post(self, request):
-        # print(request.data)
-        email = request.data['email']
-        try:
-            validate_email(email)
-        except ValidationError:
-            data = {
-                "email": {
-                    "message": "Поле не правильно заполнено!"
-                }
-            }
-            return JsonResponse(data, status=400)
-
-        password = request.data["password"]
-        data = {
-            "password": {
-                "message": "Поле должно состоять как минимум из 8 символов и содержать прописные, строчные буквы, числа и символы"
-            }
-        }
-        try:
-            validate_password(password=str(password))
-        except ValidationError:
-            return JsonResponse(data, status=400)
-
-        if not (pass_has_number(password) and pass_has_upper_case(password)):
-            return JsonResponse(data, status=400)
-
-        serializer = UserSerializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        serializer.save()
-        return Response(serializer.data)
+    def get(self, requset):
+        return HttpResponse('<h1>Welcome, to Finca Score</h1>')
 
 
-# @method_decorator(csrf_exempt, name="dispatch")
+def homeView(request):
+    return HttpResponse('<h1>Welcome, to Finca Score</h1>')
+
+
 class LoginView(APIView):
     def initialize_request(self, request, *args, **kwargs):
         setattr(request, 'csrf_processing_done', True)
@@ -98,10 +68,10 @@ class LoginView(APIView):
         user = authenticate(username=username, password=password)
 
         if user is None:
-            raise AuthenticationFailed('Пользователь не найден!')
+            raise AuthenticationFailed('User is not found!')
 
         if not user.check_password(password):
-            raise AuthenticationFailed('Не правильный пароль!')
+            raise AuthenticationFailed('Wrong password!')
 
         payload = {
             "id": user.id,
@@ -122,6 +92,66 @@ class LoginView(APIView):
         return response
 
 
+class RegisterView(APIView):
+    def initialize_request(self, request, *args, **kwargs):
+        setattr(request, 'csrf_processing_done', True)
+        return super().initialize_request(request, *args, **kwargs)
+
+    @swagger_auto_schema(
+        operation_description="Register a new user",
+        request_body=openapi.Schema(
+            type=openapi.TYPE_OBJECT,
+            required=['email', 'password'],
+            properties={
+                'email': openapi.Schema(type=openapi.TYPE_STRING, description='Email address'),
+                'password': openapi.Schema(type=openapi.TYPE_STRING, description='Password'),
+            },
+        ),
+        responses={
+            200: openapi.Schema(
+                type=openapi.TYPE_OBJECT,
+                properties={
+                    'email': openapi.Schema(type=openapi.TYPE_STRING, description='Email address'),
+                    'password': openapi.Schema(type=openapi.TYPE_STRING, description='Password'),
+                },
+            ),
+            400: "Bad request - validation error",
+        },
+    )
+    def post(self, request):
+        # print(request.data)
+        email = request.data['email']
+        try:
+            validate_email(email)
+        except ValidationError:
+            data = {
+                "email": {
+                    "message": "Еhe field is not filled correctly!"
+                }
+            }
+            return JsonResponse(data, status=400)
+
+        password = request.data["password"]
+        data = {
+            "password": {
+                "message": "The field must be at least 8 characters long and "
+                           "contain uppercase, lowercase letters, numbers, and symbols!"
+            }
+        }
+        try:
+            validate_password(password=str(password))
+        except ValidationError:
+            return JsonResponse(data, status=400)
+
+        if not (pass_has_number(password) and pass_has_upper_case(password)):
+            return JsonResponse(data, status=400)
+
+        serializer = UserSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data)
+
+
 class UserView(APIView):
     def initialize_request(self, request, *args, **kwargs):
         setattr(request, 'csrf_processing_done', True)
@@ -131,12 +161,12 @@ class UserView(APIView):
         token = request.COOKIES.get('jwt')
 
         if not token:
-            raise AuthenticationFailed('Не авторизован!')
+            raise AuthenticationFailed('Not authorized!')
 
         try:
             payload = jwt.decode(token, os.getenv('SECRET_KEY'), algorithms=['HS256'])
         except jwt.ExpiredSignatureError:
-            raise AuthenticationFailed('Не авторизован!')
+            raise AuthenticationFailed('Not authorized!')
 
         user = User.objects.filter(id=payload['id']).first()
         serializer = UserSerializer(user)

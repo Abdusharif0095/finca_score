@@ -3,10 +3,10 @@ from .views import RegisterView, LoginView, UserView, LogoutView, homeView, GetC
 
 
 urlpatterns = [
-    path('', homeView, name='home'),
-    path('register', RegisterView.as_view(), name='register'),
-    path('login', LoginView.as_view(), name='login'),
+    # path('', homeView, name='home'),
     path('user', UserView.as_view(), name='user'),
-    path('logout', LogoutView.as_view(), name='logout'),
     path('get_client', GetClient.as_view(), name='get_client'),
+    path('login', LoginView.as_view(), name='login'),
+    path('register', RegisterView.as_view(), name='register'),
+    path('logout', LogoutView.as_view(), name='logout'),
 ]
